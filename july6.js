@@ -9,7 +9,13 @@ function sort(sortOrder) {
     for (var inputField of inputFields)
     {
         // store all input value in values array
-        values.push(inputField.value);
+        if (inputField.value)
+        {
+            values.push(inputField.value);
+            continue;
+        }
+        alert("Please enter all values");
+        return;
     }
 
     // sorting the values array, using selection sort
