@@ -1,4 +1,3 @@
 # july6
-coding exercise for mirketa
-sorting 5 elements
+coding exercise for orting 5 elements
  
